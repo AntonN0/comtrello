@@ -56,9 +56,11 @@ public class CardActions extends BrowserFactory {
        // cardPage.open("1-firstcard");
        // System.out.println(card);
        // Thread.sleep(10000);
-        //Elem titleCard= new Elem(By.cssSelector(".card-detail-title-assist"), "Opened card title");
-        //System.out.println(titleCard.find().getText());
-        //Assert.assertEquals(titleCard.toString());
+
+        Elem titleCard= new Elem(By.cssSelector(".card-detail-title-assist"), "Opened card title");
+        System.out.println(titleCard.isPresent());
+      //  System.out.println("dsfsdfsa3232342");
+        Assert.assertEquals("1","2");
     }
 
 
