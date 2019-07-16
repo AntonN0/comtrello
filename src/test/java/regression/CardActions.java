@@ -60,7 +60,7 @@ public class CardActions extends BrowserFactory {
         Elem titleCard= new Elem(By.cssSelector(".card-detail-title-assist"), "Opened card title");
         System.out.println(titleCard.isPresent());
       //  System.out.println("dsfsdfsa3232342");
-        Assert.assertEquals("1","2");
+        Assert.assertTrue(titleCard.isPresent(),"Card's Title not found");
     }
 
 
