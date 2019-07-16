@@ -7,5 +7,6 @@ public class TryBrowser extends BrowserFactory {
     @Test
     public void openClose(){
         driver().get("https://google.com");
+        driver().getWindowHandles();
     }
 }
